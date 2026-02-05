@@ -1,0 +1,18 @@
+
+> smart-pivot@0.0.0 build
+> tsc -b && vite build
+
+src/App.tsx(6,10): error TS1484: 'WorkbookData' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/features/pivot/PivotView.tsx(4,10): error TS1484: 'WorkbookData' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/features/pivot/PivotView.tsx(4,24): error TS1484: 'DataRow' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/features/pivot/PivotView.tsx(4,33): error TS1484: 'PivotConfig' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/features/pivot/PivotView.tsx(6,10): error TS6133: 'Plus' is declared but its value is never read.
+src/features/pivot/PivotView.tsx(6,30): error TS6133: 'Settings2' is declared but its value is never read.
+src/features/sheet/SheetSelector.tsx(4,10): error TS1484: 'SheetInfo' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/features/upload/UploadZone.tsx(6,10): error TS1484: 'WorkbookData' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/utils/excelParser.ts(2,10): error TS1484: 'DataRow' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/utils/excelParser.ts(2,19): error TS1484: 'SheetInfo' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/utils/excelParser.ts(2,30): error TS1484: 'WorkbookData' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/utils/pivotEngine.ts(1,10): error TS1484: 'DataRow' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/utils/pivotEngine.ts(1,19): error TS1484: 'PivotConfig' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/utils/pivotEngine.ts(1,32): error TS1484: 'PivotResult' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
